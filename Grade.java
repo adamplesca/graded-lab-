@@ -20,14 +20,14 @@ public class Grade{
 		this.grade = grade;
 	}
 	public void setAns(String ans){
-			this.ans = ans;
+		this.ans = ans;
 	}
 	public void setMark(int mark){
-			this.mark = mark;
+		this.mark = mark;
 	}
 	//compute
 	public void compute(){ //added the compute method (if statement)
-		if(mark <= 70 || mark >= 100){
+		if(mark >= 70 || mark <= 100){
 			grade = "Distinction";
 		}
 		else if(mark >= 60 || mark <= 70){
